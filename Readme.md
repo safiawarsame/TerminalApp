@@ -1,0 +1,1 @@
+t = TicTacToe.new(name1,name2)
