@@ -1,12 +1,14 @@
     require_relative("./player.rb")
     require_relative("./board.rb")
+    require "colorize"
     
     class TicTacToe
     # initialize
-    def initialize(player1,player2)
+    attr_accessor :board
+    def initialize(player1,player2,no_of_players)
         # set up the board
         @board = Board.new
-
+        @no_of_players= no_of_players
         # set up the players
         @player_x = Player.new(player1, :x, @board)
         @player_o = Player.new(player2, :o, @board)
@@ -17,15 +19,17 @@
 
     # play
     def play
-
+        @current_player = @player_x
         # loop infinitely
         loop do
             # call the board rendering method
             @board.render
-
-            # ask for coordinates from the current player
-            @current_player.get_coordinates
-
+            if @no_of_players==1
+             @current_player.put_coordinates
+            elsif @no_of_players==2
+              # ask for coordinates from the current player
+              @current_player.get_coordinates
+            end 
             # check if game is over
             break if check_game_over
 
@@ -48,6 +52,15 @@
         if @board.winning_combination?(@current_player.piece)
             # then output a victory message
             puts "Congratulations #{@current_player.name}, you win!"
+            if @current_player == @player_x
+                @player_x.score += 1
+            else 
+                @player_o.score += 1 
+            end        
+            puts "score board"
+            puts "#{@player_x.name}"+ ": #{@player_x.score}".blue
+            puts "#{@player_o.name}"+": #{@player_o.score}".blue
+
             true
         else
             false

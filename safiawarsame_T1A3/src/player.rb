@@ -1,16 +1,24 @@
 # Manages all player-related functionality
 class Player
-    attr_accessor :name, :piece
-
+    attr_accessor :name, :piece, :score
+   
     # initialize
-    def initialize(name = "Mystery_Player", piece, board)
+    def initialize(name = "Anonymous", piece, board)
         # Set marker type (e.g. X or O)
         raise "Piece must be a Symbol!" unless piece.is_a?(Symbol)
         @name = name
         @piece = piece
         @board = board
+        @score=0
     end
 
+    def put_coordinates
+        coords=[rand(2),rand(2)]
+        while !@board[coords[0]][coords[1]].nil?
+            coords=[rand(2),rand(2)]
+        end
+        @board[coords[0]][coords[1]] = @piece
+    end    
     # get_coordinates
     def get_coordinates
         # loop infinitely
@@ -33,7 +41,7 @@ class Player
     # ask_for_coordinates
     def ask_for_coordinates
         # Display message asking for coordinates
-        puts "#{@name}(#{@piece}),:"
+        puts "#{@name}(#{@piece}):"
         # pull coordinates from command line
         gets.strip.split(",").map(&:to_i)
     end
@@ -46,7 +54,7 @@ class Player
         else
             # display error message
             # Note that returning `nil` acts falsy!
-            puts "Your coordinates are not correct!"
+            puts "Your coordinates are not correct!, try again please"
         end
     end
 

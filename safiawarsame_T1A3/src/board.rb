@@ -6,6 +6,7 @@ class Board
         @board = Array.new(3){Array.new(3)}
     end
 
+    
     # render
     def render
         puts
@@ -37,8 +38,8 @@ class Board
     def piece_location_valid?(coords)
         # Is the placement within_valid_coordinates?
         if within_valid_coordinates?(coords)
-            # Are the piece coordinates_available?
-            coordinates_available?(coords)
+            # Are the piece coordinates_available? 
+            coordinates_available?(coords)  
         end
     end
 
@@ -61,6 +62,7 @@ class Board
         else
             # display error message
             puts "that piece is currently occupied!"
+            false
         end
     end
 
