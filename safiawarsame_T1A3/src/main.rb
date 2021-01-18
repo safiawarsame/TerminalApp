@@ -3,7 +3,7 @@ require_relative("./player.rb")
 require_relative("./board.rb")
 require_relative("./tictactoe.rb")
 require "colorize"
-puts "welcome to TicTacToe".yellow
+puts "welcome to TicTacToe".red
 
 $prompt = TTY::Prompt.new
 
