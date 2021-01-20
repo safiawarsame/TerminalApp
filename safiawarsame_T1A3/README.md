@@ -1,4 +1,5 @@
 **GitHub Repository Link:**
+https://github.com/safiawarsame/TerminalApp
 
 **Software Development Plan**
 - **What the Application will do:**

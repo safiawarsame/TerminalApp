@@ -43,6 +43,7 @@ class Player
         # Display message asking for coordinates
         puts "#{@name}(#{@piece}):"
         # pull coordinates from command line
+        # use stdin so it doesnt try to read a file from argv$
         STDIN.gets.strip.split(",").map(&:to_i)
     end
 
