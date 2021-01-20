@@ -84,13 +84,16 @@ as stated previously in the features.
 
 - if ARGV.length > 0
     name1 = ARGV[0]
+
 - elsif ARGV.length ==2
     name2 = ARGV[1]   
 end 
+
 - if !name1
  puts "please, enter the first player's name".blue
  name1=STDIN.gets.strip 
 end
+
 - if !name2
  puts "please, enter the second player's name".blue
  name2=STDIN.gets.strip 
@@ -104,7 +107,7 @@ end
 - installed colorize
 - installed tty promt
 
--**Methods**
+  **Methods**
 
 -  in player.rb
 
@@ -123,10 +126,9 @@ end
 - switch_players
    
 - main.rb
-- 
-if ARGV.length > 0
+- if ARGV.length > 0
     name1 = ARGV[0]
-elsif ARGV.length ==2
+- elsif ARGV.length ==2
     name2 = ARGV[1]   
 end 
 
