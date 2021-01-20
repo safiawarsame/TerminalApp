@@ -48,9 +48,20 @@ as stated previously in the features.
 
 - ![choose an option](./docs/chooseanoption.png)
 
+- lets say i pick 2 players
+
 - ![2 players](./docs/2players.png)
+- must insert player 1 name 
+- ![player1](./docs/player1name.png)
+
+- must insert player 2 name
+- ![player2](./docs/player2name.png)
+- To play the game you need to use the right cooridnations or else it won't run. The coordinations are between 0..2. Any number after 2 won't run the game. For exmaple, (1,1) will work but if you type 1,3 it won't run and a message will pop up saying "the coordinations are wrong, try again" and it will then give you a chanve to imsert the right coordinations.
 
 - ![playing the game](./docs/playingthegame.png)
+
+ - if i choose to exit this will pop up 
+ - ![exit](./docs/exit.png)
 
 **Data Flow Diagram**
 ![flow diagram](./docs/flowdiagram.png)
