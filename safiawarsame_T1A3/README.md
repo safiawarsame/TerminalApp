@@ -95,3 +95,53 @@ end
  puts "please, enter the second player's name".blue
  name2=STDIN.gets.strip 
  end
+
+
+- **Implementation**
+
+- ARGV expressions
+- installed bundler
+- installed colorize
+- installed tty promt
+
+-**Methods**
+-  in player.rb
+
+- def initialize
+- put_coordinates
+- ask_for_coordinates
+- validate_coordinates_format
+
+- in tictactoe.rb
+
+- def initialize
+- def play
+- check_game_over
+- check_victory
+- check_draw
+- switch_players
+   
+- main.rb
+- 
+if ARGV.length > 0
+    name1 = ARGV[0]
+elsif ARGV.length ==2
+    name2 = ARGV[1]   
+end 
+
+- in board.rb
+
+- def initialize
+- def render
+- add_piece
+- piece_location_valid?
+- within_valid_coordinates?
+- coordinates_available?
+- winning_combination?
+- winning_diagonal?
+- winning_vertical?
+- winning_horizontal?
+- def diagonals
+- def verticals
+- def horizontals
+- def full?
