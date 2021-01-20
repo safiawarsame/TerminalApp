@@ -7,12 +7,12 @@ puts "welcome to TicTacToe".red
 
 $prompt = TTY::Prompt.new
 
-if ARGV.length == 2 
+if ARGV.length > 0
     name1 = ARGV[0]
+elsif ARGV.length ==2
     name2 = ARGV[1]   
-end
+end 
 
-    
 
 answer="replay"
 while(answer!="Exit")
@@ -29,6 +29,8 @@ while(answer!="Exit")
      name1=gets.strip 
      puts "please, enter the second player's name".blue
      name2=gets.strip 
+     
+
      t = TicTacToe.new(name1,name2,players_no)
      t.play
     end
