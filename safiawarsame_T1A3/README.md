@@ -2,7 +2,7 @@
 - https://github.com/safiawarsame/TerminalApp
 
 **Trello Link**
-https://trello.com/b/A3wfwEcQ/terminal-app
+- https://trello.com/b/A3wfwEcQ/terminal-app
 
 
 **Software Development Plan**
