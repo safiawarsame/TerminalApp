@@ -22,7 +22,7 @@
 - 1 player would have given you an option to play with an API but currently there an error in it.
 - 2 players option allows you to play with players. It also allows you to imput player 1 and 2's name. 
 - **ScoreBoard**
-- the scoredboard was created so it can keep count of how many times you've won each game. At the end of each game, there will be a score board.If the player/players keeps playing, the scoreboard will keep accumulating. If the player/players exit and then start a new game the score board will start from 0.
+- The scoredboard was created so it can keep count of how many times you've won each game. At the end of each game, there will be a score board.If the player/players keeps playing, the scoreboard will keep accumulating. If the player/players exit and then start a new game the score board will start from 0.
 
 **How the user will find out how to use the app**
 the app os created in a very simoly way. it has instructions and wont be hard to follow
