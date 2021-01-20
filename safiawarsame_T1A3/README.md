@@ -41,6 +41,12 @@ the app is created in a very simple way. it has instructions and wont be hard to
 1- the welcoming message is the first thing  that pops up as soon as you run ruby main.rb 
 ![welcome message](./docs/welcomingmessage.png)
 
+2- Choose an option
+To choose your options you need to press the up/down arrows to move enter and select
+as stated previously in the features. you will know what each option is and where it will lead you to.
+![choose an option](./docs/chooseanoption.png)
+
+3- 
 **Data Flow Diagram**
 ![flow diagram](./docs/flowdiagram.png)
 
