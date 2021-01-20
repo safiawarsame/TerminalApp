@@ -4,15 +4,16 @@
 **Trello Link**
 - https://trello.com/b/A3wfwEcQ/terminal-app 
 
-
-
 **Software Development Plan**
+
 - **What the Application will do:**
-this is an online game that is easy and fun to play TICTACTOE
+- TicTacToe is a well-known online game that is easy and fun to play.
+
 - **Target Audience:**
-no age limit, anyone who wants to play can do so
+- TicTacToe is a very standard game that has no age limit which makes the demographic very wide. Anyone can play from kids to millennials.
 - **How To Use the App:**
-To play the game you have to go on terminal and run ruby manin.rb 
+- To play the game you have to go on terminal and run "ruby manin.rb" 
+
 **Features of the App**
 - welcoming message 
 
@@ -31,3 +32,19 @@ the app os created in a very simoly way. it has instructions and wont be hard to
 
 **Data Flow Diagram**
 ![flow diagram](./docs/flowdiagram.png)
+
+**test runs**
+
+if ARGV.length > 0
+    name1 = ARGV[0]
+elsif ARGV.length ==2
+    name2 = ARGV[1]   
+end 
+if !name1
+ puts "please, enter the first player's name".blue
+ name1=STDIN.gets.strip 
+end
+if!name2
+ puts "please, enter the second player's name".blue
+ name2=STDIN.gets.strip 
+
