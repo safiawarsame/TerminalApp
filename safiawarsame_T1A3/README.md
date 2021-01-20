@@ -64,7 +64,7 @@ as stated previously in the features.
  - ![occupied](./docs/occupied.png)
 
  - if the users continue to play by typing in the right coordinations one user will win and a score board will pop up 
-
+ - ![end of the game](./docs/endofthegame.png)
 
  - if i choose to exit this will pop up 
  - ![exit](./docs/exit.png)
