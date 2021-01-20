@@ -28,6 +28,12 @@
 - **3- ScoreBoard**
 - The scoredboard was created so it can keep count of how many times you've won each game. At the end of each game, there will be a score board.If the player/players keeps playing, the scoreboard will keep accumulating. If the player/players exit and then start a new game the score board will start from 0.
 
+- **Replay/Exit**
+Once the game is finish, it gives two options. 
+- Option one, you either replay the game which it will then gives you another option. 1 player or 2 players.
+Option 2, you exit the game .
+
+
 **How the user will find out how to use the app**
 the app os created in a very simoly way. it has instructions and wont be hard to follow
 **How user will interact and use each feature**
