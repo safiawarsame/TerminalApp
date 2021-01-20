@@ -2,12 +2,13 @@
 - https://github.com/safiawarsame/TerminalApp
 
 **Trello Link**
-- https://trello.com/b/A3wfwEcQ/terminal-app
+- https://trello.com/b/A3wfwEcQ/terminal-app 
+
 
 
 **Software Development Plan**
 - **What the Application will do:**
-this is an online game that is easy and fun to play
+this is an online game that is easy and fun to play TICTACTOE
 - **Target Audience:**
 no age limit, anyone who wants to play can do so
 - **How To Use the App:**
