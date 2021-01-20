@@ -15,8 +15,12 @@
 - To play the game you have to go on terminal and run "ruby manin.rb" 
 
 **Features of the App**
-- welcoming message 
-
+- **Welcoming message**
+The welcoming messsage is the first thing that will appear in the application before playing the game begins
+- **Choose an option**
+- TicTacToe will give you two option. 1 player or 2 players.
+- 1 player would have given you an option to play with an API but currently there an error in it.
+- 2 players option allows you to play with players. It also allows you to imput player 1 and 2's name. 
 - create a user name
 - new game/exit
 
