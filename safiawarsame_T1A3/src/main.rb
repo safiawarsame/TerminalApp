@@ -4,7 +4,7 @@ require_relative("./board.rb")
 require_relative("./tictactoe.rb")
 require "colorize"
 puts "welcome to TicTacToe".red
-
+end
 $prompt = TTY::Prompt.new
 
 if ARGV.length > 0
