@@ -109,14 +109,14 @@ end
 
 **Methods**
 
--  in player.rb
+- 1-  in player.rb
 
     - def initialize
     - put_coordinates
     - ask_for_coordinates
     - validate_coordinates_format
 
-- in tictactoe.rb
+- 2-  in tictactoe.rb
 
     - def initialize
     - def play
@@ -125,14 +125,14 @@ end
     - check_draw
     - switch_players
    
-- main.rb
+- 3-  in main.rb
     - if ARGV.length > 0
     name1 = ARGV[0]
     - elsif ARGV.length ==2
     name2 = ARGV[1]   
     end 
 
-- in board.rb
+- 4- in board.rb
 
     - def initialize
     - def render
