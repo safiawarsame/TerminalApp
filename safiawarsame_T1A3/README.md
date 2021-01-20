@@ -35,14 +35,11 @@
 
 
 **How the user will find out how to use the app**
-the app os created in a very simoly way. it has instructions and wont be hard to follow
+the app is created in a very simple way. it has instructions and wont be hard to follow.
 **How user will interact and use each feature**
 
 1- the welcoming message is the first thing  that pops up as soon as you run ruby main.rb 
-
-2- the game will require you to insert player 1 ans player 2 name 
-
-3- once the game is finish ot will give you 2 options, either play a new game or exit  
+![welcome message](./docs/welcomingmessage.png)
 
 **Data Flow Diagram**
 ![flow diagram](./docs/flowdiagram.png)
