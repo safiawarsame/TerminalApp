@@ -100,51 +100,51 @@ end
  end
 
 
- **Implementation**
+**Implementation**
 
 - ARGV expressions
 - installed bundler
 - installed colorize
 - installed tty promt
 
-  **Methods**
+**Methods**
 
 -  in player.rb
 
-- def initialize
-- put_coordinates
-- ask_for_coordinates
-- validate_coordinates_format
+    - def initialize
+    - put_coordinates
+    - ask_for_coordinates
+    - validate_coordinates_format
 
 - in tictactoe.rb
 
-- def initialize
-- def play
-- check_game_over
-- check_victory
-- check_draw
-- switch_players
+    - def initialize
+    - def play
+    - check_game_over
+    - check_victory
+    - check_draw
+    - switch_players
    
 - main.rb
-- if ARGV.length > 0
+    - if ARGV.length > 0
     name1 = ARGV[0]
-- elsif ARGV.length ==2
+    - elsif ARGV.length ==2
     name2 = ARGV[1]   
-end 
+    end 
 
 - in board.rb
 
-- def initialize
-- def render
-- add_piece
-- piece_location_valid?
-- within_valid_coordinates?
-- coordinates_available?
-- winning_combination?
-- winning_diagonal?
-- winning_vertical?
-- winning_horizontal?
-- def diagonals
-- def verticals
-- def horizontals
-- def full?
+    - def initialize
+    - def render
+    - add_piece
+    - piece_location_valid?
+    - within_valid_coordinates?
+    - coordinates_available?
+    - winning_combination?
+    - winning_diagonal?
+    - winning_vertical?
+    - winning_horizontal?
+    - def diagonals
+    - def verticals
+    - def horizontals
+    - def full?
