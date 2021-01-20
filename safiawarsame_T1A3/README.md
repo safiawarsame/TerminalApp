@@ -72,6 +72,11 @@ as stated previously in the features.
  - if the users choose to exit this will pop up 
  - ![exit](./docs/exit.png)
 
+ -  Coordinations to play the game :
+ - (0,0), (0,1), (0,2)
+ - (1,0), (1,1), (1,2)
+ - (2,0), (2,1), (2,2)
+
 **Data Flow Diagram**
 ![flow diagram](./docs/flowdiagram.png)
 
