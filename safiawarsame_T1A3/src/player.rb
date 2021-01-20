@@ -43,7 +43,7 @@ class Player
         # Display message asking for coordinates
         puts "#{@name}(#{@piece}):"
         # pull coordinates from command line
-        gets.strip.split(",").map(&:to_i)
+        STDIN.gets.strip.split(",").map(&:to_i)
     end
 
     # validate_coordinates_format
