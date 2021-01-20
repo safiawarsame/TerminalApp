@@ -97,7 +97,7 @@ end
  end
 
 
-- **Implementation**
+ **Implementation**
 
 - ARGV expressions
 - installed bundler
@@ -105,6 +105,7 @@ end
 - installed tty promt
 
 -**Methods**
+
 -  in player.rb
 
 - def initialize
