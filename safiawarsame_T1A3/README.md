@@ -48,7 +48,9 @@ as stated previously in the features.
 
 - ![choose an option](./docs/chooseanoption.png)
 
-- ![2 players ](./docs/2players.png)
+- ![2 players](./docs/2players.png)
+
+- ![playing the game](./docs/playingthegame.png)
 
 **Data Flow Diagram**
 ![flow diagram](./docs/flowdiagram.png)
