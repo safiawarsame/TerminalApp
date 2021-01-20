@@ -10,19 +10,19 @@
 - TicTacToe is a well-known online game that is easy and fun to play.
 
 - **Target Audience:**
-- TicTacToe is a very standard game that has no age limit which makes the demographic very wide. Anyone can play from kids to millennials.
+- TicTacToe is a very standard game that has no age limit which makes the demographic very wide. Anyone can play from kids to millennials and also anyone who has access to my GitHub link.
 - **How To Use the App:**
 - To play the game you have to go on terminal and run "ruby manin.rb" 
-ddddd
+
 **Features of the App**
 - **Welcoming message**
-The welcoming messsage is the first thing that will appear in the application before playing the game begins
+- The welcoming messsage is the first thing that will appear in the application before playing the game begins.
 - **Choose an option**
 - TicTacToe will give you two option. 1 player or 2 players.
 - 1 player would have given you an option to play with an API but currently there an error in it.
 - 2 players option allows you to play with players. It also allows you to imput player 1 and 2's name. 
-- create a user name
-- new game/exit
+-**ScoreBoard**
+- the scoredboard was created so it can keep count of how many times you've won each game. At the end of each game, there will be a score board.If the player/players keeps playing, the scoreboard will keep accumulating. If the player/players exit and then start a new game the score board will start from 0.
 
 **How the user will find out how to use the app**
 the app os created in a very simoly way. it has instructions and wont be hard to follow
