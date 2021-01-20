@@ -1,5 +1,8 @@
 **GitHub Repository Link:**
 - https://github.com/safiawarsame/TerminalApp
+**Trello Link**
+https://trello.com/b/A3wfwEcQ/terminal-app
+
 
 **Software Development Plan**
 - **What the Application will do:**
@@ -9,7 +12,8 @@ no age limit, anyone who wants to play can do so
 - **How To Use the App:**
 To play the game you have to go on terminal and run ruby manin.rb 
 **Features of the App**
-- welcoming message
+- welcoming message 
+
 - create a user name
 - new game/exit
 
